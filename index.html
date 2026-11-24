@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de privacidad de AgendaVoz, en español e inglés.">
+  <title>Política de Privacidad – AgendaVoz</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      color: #202733;
+      background: #f5f7fa;
+    }
+
+    body {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem;
+    }
+
+    main {
+      padding: clamp(1.25rem, 5vw, 3rem);
+      background: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 0.25rem 1.5rem rgb(24 39 75 / 8%);
+    }
+
+    h1, h2 {
+      line-height: 1.25;
+    }
+
+    h1 {
+      margin-top: 0;
+      color: #173b69;
+    }
+
+    h2 {
+      margin-top: 2rem;
+      color: #244e7a;
+    }
+
+    .metadata {
+      color: #4b5563;
+    }
+
+    .language-links {
+      display: flex;
+      gap: 1rem;
+      margin: 1.5rem 0 2rem;
+    }
+
+    a {
+      color: #155e9a;
+    }
+
+    section[lang="en"] {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid #d9e0e8;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      html {
+        scroll-behavior: smooth;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <nav class="language-links" aria-label="Seleccionar idioma / Choose language">
+      <a href="#espanol">Español</a>
+      <a href="#english">English</a>
+    </nav>
+
+    <section id="espanol" lang="es" aria-labelledby="titulo-es">
+      <h1 id="titulo-es">Política de Privacidad – AgendaVoz</h1>
+      <p class="metadata">
+        <strong>Última actualización:</strong> 23 de noviembre de 2026<br>
+        <strong>Desarrollador / Titular:</strong> Julio Estevez (Capiversoun)<br>
+        <strong>Contacto:</strong> <a href="mailto:capiversoun.dev@gmail.com">capiversoun.dev@gmail.com</a>
+      </p>
+      <p>Esta Política de Privacidad describe cómo <strong>AgendaVoz</strong> (paquete <code>com.capiversoun.agendavoz</code>) gestiona la información y los permisos del dispositivo cuando utilizas nuestra aplicación móvil.</p>
+
+      <h2>1. Principio de Privacidad y Almacenamiento Local</h2>
+      <p><strong>AgendaVoz</strong> está diseñada para funcionar de manera privada en tu dispositivo:</p>
+      <ul>
+        <li><strong>Sin servidores propios:</strong> No operamos servidores externos ni bases de datos en la nube para almacenar tus notas, tareas, eventos o grabaciones.</li>
+        <li><strong>Almacenamiento 100 % local:</strong> Toda la agenda, los recordatorios y los pendientes que creas se guardan exclusivamente en la memoria interna de tu teléfono mediante una base de datos local encriptada por el sistema operativo. Si desinstalas la aplicación o borras sus datos, toda tu información se elimina permanentemente.</li>
+      </ul>
+
+      <h2>2. Uso de Permisos del Dispositivo</h2>
+      <p>Para cumplir con su función principal de asistente de voz y calendario, la aplicación solicita únicamente los siguientes permisos estrictamente necesarios:</p>
+      <ul>
+        <li><strong>Micrófono (<code>android.permission.RECORD_AUDIO</code>):</strong> Se utiliza exclusivamente cuando presionas el botón de dictado por voz para convertir tus palabras en texto y crear eventos o tareas. El audio se procesa en tiempo real a través del motor de reconocimiento de voz nativo de Android / Google Speech Services y <strong>no se graba, guarda ni envía</strong> a ningún servidor del desarrollador.</li>
+        <li><strong>Alarmas Exactas y Notificaciones (<code>USE_EXACT_ALARM</code>, <code>POST_NOTIFICATIONS</code>, <code>RECEIVE_BOOT_COMPLETED</code>):</strong> Se utilizan exclusivamente para programar y mostrar alertas puntuales (recordatorios con sonido o silenciosos) en el horario establecido por ti, incluso después de reiniciar el teléfono.</li>
+        <li><strong>Acceso a Red (<code>INTERNET</code>):</strong> Utilizado únicamente por los servicios del sistema operativo cuando el motor de reconocimiento de voz requiere conectividad para transcribir el dictado.</li>
+      </ul>
+
+      <h2>3. Recopilación y Compartición de Datos con Terceros</h2>
+      <ul>
+        <li><strong>No recopilamos datos personales:</strong> AgendaVoz no solicita registro de usuario, nombre, correo electrónico, ubicación GPS ni acceso a tus contactos.</li>
+        <li><strong>Sin venta ni cesión de datos:</strong> No vendemos, alquilamos ni compartimos información de los usuarios con terceros ni redes publicitarias en esta versión.</li>
+      </ul>
+
+      <h2>4. Seguridad de la Información</h2>
+      <p>La aplicación deshabilita las copias de seguridad automáticas no cifradas (<code>allowBackup="false"</code>) y restringe el acceso de aplicaciones de terceros a sus receptores internos de alarmas para proteger la integridad de tus recordatorios frente a accesos no autorizados dentro del dispositivo.</p>
+
+      <h2>5. Privacidad de Menores</h2>
+      <p>AgendaVoz no está dirigida específicamente a menores de 13 años ni recopila conscientemente información personal de niños.</p>
+
+      <h2>6. Cambios en esta Política de Privacidad</h2>
+      <p>Podemos actualizar esta Política de Privacidad ocasionalmente para reflejar mejoras técnicas o nuevas funcionalidades (como la eventual incorporación de servicios opcionales en futuras versiones). Cualquier modificación será publicada en esta misma página con su fecha de actualización correspondiente.</p>
+
+      <h2>7. Contacto</h2>
+      <p>Si tienes preguntas o consultas sobre esta Política de Privacidad o el funcionamiento de <strong>AgendaVoz</strong>, puedes escribirnos a: <a href="mailto:capiversoun.dev@gmail.com">capiversoun.dev@gmail.com</a></p>
+    </section>
+
+    <section id="english" lang="en" aria-labelledby="title-en">
+      <h1 id="title-en">Privacy Policy – AgendaVoz</h1>
+      <p class="metadata">
+        <strong>Last updated:</strong> November 23, 2026<br>
+        <strong>Developer / Owner:</strong> Julio Estevez (Capiversoun)<br>
+        <strong>Contact:</strong> <a href="mailto:capiversoun.dev@gmail.com">capiversoun.dev@gmail.com</a>
+      </p>
+      <p>This Privacy Policy describes how <strong>AgendaVoz</strong> (package <code>com.capiversoun.agendavoz</code>) handles device permissions and user information when you use our mobile application.</p>
+
+      <h2>1. Privacy Principle &amp; Local Storage</h2>
+      <p><strong>AgendaVoz</strong> is built to operate privately on your device:</p>
+      <ul>
+        <li><strong>No External Servers:</strong> We do not operate proprietary servers or cloud databases to store your notes, tasks, events, or voice inputs.</li>
+        <li><strong>100% Local Storage:</strong> All calendar events, reminders, and to-do items you create are stored exclusively on your device's internal storage using a local database. Uninstalling the app or clearing its storage permanently deletes all your data.</li>
+      </ul>
+
+      <h2>2. Device Permissions Usage</h2>
+      <p>To deliver its core functionality as a voice-driven calendar and reminder manager, the application requests only the strictly necessary permissions:</p>
+      <ul>
+        <li><strong>Microphone (<code>android.permission.RECORD_AUDIO</code>):</strong> Used exclusively when you tap the voice input button to transcribe speech into text for creating events or tasks. Audio is processed in real time by Android's native speech recognition engine / Google Speech Services and is <strong>never recorded, stored, or transmitted</strong> to any developer-owned server.</li>
+        <li><strong>Exact Alarms &amp; Notifications (<code>USE_EXACT_ALARM</code>, <code>POST_NOTIFICATIONS</code>, <code>RECEIVE_BOOT_COMPLETED</code>):</strong> Used strictly to schedule and deliver timely alerts and reminders at the exact times you specify, including restoring scheduled alarms after a device reboot.</li>
+        <li><strong>Network Access (<code>INTERNET</code>):</strong> Used solely by system speech-to-text services when online processing is required to transcribe spoken commands.</li>
+      </ul>
+
+      <h2>3. Data Collection &amp; Third-Party Sharing</h2>
+      <ul>
+        <li><strong>No Personal Data Collected:</strong> AgendaVoz does not require user accounts and does not collect your name, email address, GPS location, or contact list.</li>
+        <li><strong>No Data Sharing or Sale:</strong> We do not sell, rent, or share user data with third parties or advertising networks in this release.</li>
+      </ul>
+
+      <h2>4. Data Security</h2>
+      <p>The application disables unencrypted automatic backups (<code>allowBackup="false"</code>) and restricts external broadcast access to internal alarm receivers to safeguard your schedule against unauthorized access on the device.</p>
+
+      <h2>5. Children's Privacy</h2>
+      <p>AgendaVoz is not directed at children under the age of 13 and does not knowingly collect personal information from children.</p>
+
+      <h2>6. Changes to This Privacy Policy</h2>
+      <p>We may update this Privacy Policy from time to time to reflect technical updates or future features. Any changes will be posted on this page with an updated revision date.</p>
+
+      <h2>7. Contact Us</h2>
+      <p>If you have any questions about this Privacy Policy or <strong>AgendaVoz</strong>, please contact us at: <a href="mailto:capiversoun.dev@gmail.com">capiversoun.dev@gmail.com</a></p>
+    </section>
+  </main>
+</body>
+</html>
